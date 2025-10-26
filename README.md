@@ -48,13 +48,21 @@ get_page_title() → get title
 Setup Instructions
 
 Install Python
+
 https://www.python.org/downloads/
+
 Install dependencies
+
 pip install playwright fastmcp
+
 python -m playwright install
+
 Run MCP Server
+
 python playwright_mcp.py
+
 Configure AI Client
+
 {
   "mcpServers": {
     "playwright-mcp-server": {
@@ -67,6 +75,9 @@ Configure AI Client
 🌍 Potential Use Cases
 
 Web QA Automation
+
 Form filling and data submission
+
 Scraping / data collection
+
 Cross-browser testing
